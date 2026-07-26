@@ -1,0 +1,20 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of https://fivelives.health/.well-known/*
+host: https://fivelives.health
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+note: >-
+  No /.well-known discovery documents are published. Five Lives is a consumer
+  health app company with no public API, OAuth server, or agent-plugin surface.
+  Absence recorded as valid, expected data; no WellKnown/SecurityTxt pointer
+  emitted because nothing was found.

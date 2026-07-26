@@ -1,7 +1,33 @@
 aid: five-lives
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/five-lives.png
 name: Five Lives
-description: Five Lives is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Five Lives is a health-technology company building evidence-based digital
+  tools for dementia prevention and brain health for adults aged 50 and over.
+  Founded by former Peak brain-training leaders Xavier Louis (CEO) and Sylvain
+  Piquet (COO), the fully remote company operates two consumer mobile apps: Five
+  Lives Brain Health, a prevention app available since 2021 with cognitive tests,
+  brain games, and lifestyle tracking across five pillars (nutrition, sleep,
+  physical activity, mood and social connection, and mental stimulation); and
+  Five Lives Care, an evidence-based memory and autonomy programme for people
+  aged 60+ launched in January 2026 and developed with leading memory centres in
+  the UK and France. Its work draws on the FINGER study and the Lancet
+  Commission's modifiable dementia risk factors, with research partners including
+  the University of Oxford, Trinity College Dublin, the FINGER Brain Health
+  Institute, Dementias Platform UK, and the Gerontopole d'Ile de France. Backed
+  by Speedinvest. Five Lives does not currently publish a public developer API,
+  SDK, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/five-lives/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +35,50 @@ x-backed-by:
 - speedinvest
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-website: https://fivelives.health
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Health
+- Brain Health
+- Dementia Prevention
+- Cognitive Health
+- Digital Health
+- HealthTech
+- Neuroscience
+- Aging
+- Mobile App
 apis: []
+common:
+- type: DomainSecurity
+  url: security/five-lives-domain-security.yml
+- type: Website
+  url: https://fivelives.health
+- type: About
+  url: https://fivelives.health/about
+- type: Support
+  url: mailto:contact@fivelives.health
+- type: TermsOfService
+  url: https://fivelives.health/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://fivelives.health/privacy-policy
+- type: Press
+  url: https://fivelives.health/press
+- type: SignUp
+  url: https://apps.apple.com/gb/app/five-lives-care/id6756554977
+- type: LinkedIn
+  url: https://www.linkedin.com/company/fivelives/
+- type: Facebook
+  url: https://www.facebook.com/profile.php?id=100063689703135
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
