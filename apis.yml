@@ -49,7 +49,7 @@ x-tier-reason: portfolio-lead
 x-website: https://fivelives.health
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-10-06'
 tags:
 - Company
 - Health
@@ -74,6 +74,8 @@ tags_raw:
 - Mobile App
 apis: []
 common:
+- url: https://www.fivelives.health/press
+  type: Blog
 - type: DomainSecurity
   url: security/five-lives-domain-security.yml
 - type: Website
